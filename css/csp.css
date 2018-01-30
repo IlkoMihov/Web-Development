@@ -1,0 +1,87 @@
+.text1{
+    opacity: 0;
+    animation: fade 0.5s linear;
+	}
+.text2{
+    opacity: 0;
+    animation: fade 0.5s linear;
+	-webkit-animation-delay:0.5s; 
+	}
+.text3{
+    opacity: 0;
+    animation: fade 0.5s linear;
+	-webkit-animation-delay:1.0s; 
+	}
+.text4{
+	opacity: 0; 
+	animation: fade 0.5s linear; 
+	-webkit-animation-delay:1.5s; 
+}
+.text5{{
+    opacity: 0;
+    animation: fade 0.5s linear;
+	-webkit-animation-delay:2s; 
+	}
+.text6{
+    opacity: 0;
+    animation: fade 0.5s linear;
+	-webkit-animation-delay:2.5s; 
+	}
+.text7{
+    opacity: 0;
+    animation: fade 0.5s linear;
+	-webkit-animation-delay:3.0s; 
+	}
+.text8{
+    opacity: 0;
+    animation: fade 0.5s linear;
+	-webkit-animation-delay:3.5s; 
+	}
+.text9{
+    opacity: 0;
+    animation: fade 0.5s linear;
+	-webkit-animation-delay:4.0s; 
+	}
+@keyframes fade {
+  00%,100% { opacity: 20 }
+  50% { opacity: 1 }
+}
+@-webkit-keyframes fade-in{
+    from{
+        opacity:1;
+        top:0px;
+    }
+    to{
+        opacity:0;
+        top:-5px;
+    }
+}
+.text-animated-one{
+    display:inline;
+    position:relative;
+    top:0px;
+    -webkit-animation:fade-in 1s infinite;
+
+}
+.text-animated-two{
+    opacity:0;
+    display:inline;
+    position:relative;
+    margin-left:-56px;
+    -webkit-animation:fade-in 1s infinite;
+    -webkit-animation-delay:0.5s;
+}
+.text-animated-three{
+    opacity:0;
+    display:inline;
+    position:relative;
+    margin-left:-56px;
+    -webkit-animation:fade-in 1s infinite;
+    -webkit-animation-delay:1.0s;
+}
+
+.aggettivi{
+    display:inline;
+    width:100px;
+    height:100px;
+}
