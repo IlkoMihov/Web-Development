@@ -1,1 +1,2 @@
-One of the first web pages for the entertainment company BT Livin. 
+One of the first webpages for BT Livin a company which focuses on shooting and organising entertainment events.
+
